@@ -3,7 +3,6 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-<<<<<<< Updated upstream
   <title>Readable Text Over Photo or Video</title>
   <style>
     :root{
@@ -287,6 +286,57 @@
     }
   })();
   </script>
+=======
+  <title>The Corruptive - Adored</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <!-- Defer ensures the DOM is ready when the script runs -->
+  <script src="assets/js/media-hero.js" defer></script>
+</head>
+<body>
+
+  <!--
+    USAGE:
+      • Image background:
+        <section class="media-hero" data-bg="your-image.jpg" data-position="center center">…</section>
+
+      • Video background (MP4/MOV). You can list multiple, comma-separated for fallback:
+        <section class="media-hero"
+                 data-video="bg.mp4, bg.mov"
+                 data-poster="poster.jpg"
+                 data-position="center center">…</section>
+
+    NOTES:
+      - Keep media on the same origin/folder as this HTML to allow the Canvas sampler.
+        If remote, enable CORS on your server and set crossOrigin in JS (see comments).
+      - MP4/H.264 has the broadest browser support; MOV varies outside Safari, so include both if you like.
+  -->
+
+  <!-- Example: video hero -->
+  <section class="media-hero"
+           data-video="https://video.thecorruptive.com/Timeline%201.mp4"
+           data-poster=""
+           data-position="center center">
+    <main>
+    <!--  <h1>Readable text over a looping video</h1>
+      <p class="lede">
+        Drop an MP4/MOV next to this file, set <code>data-video</code>, and the template
+        auto-tunes contrast so your copy stays readable across frames.
+      </p>
+      <a class="cta" href="#">Call to Action</a> -->
+    </main>
+  </section>
+
+  <!-- Example: image hero
+  <section class="media-hero" data-bg="your-image.jpg" data-position="top center">
+    <main>
+      <h1>Readable text over an image</h1>
+      <p class="lede">Same adaptive tuning, now for photos.</p>
+      <a class="cta" href="#">Learn more</a>
+    </main>
+  </section>
+  -->
+
+>>>>>>> Stashed changes
 =======
   <title>The Corruptive - Adored</title>
   <link rel="stylesheet" href="assets/css/styles.css" />
